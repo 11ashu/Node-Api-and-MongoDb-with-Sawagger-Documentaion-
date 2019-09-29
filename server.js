@@ -42,4 +42,5 @@ db.connect();
 server.listen(API_PORT, () => {
     console.log(`Listen on port ${API_PORT}`);
 });
+
 module.exports = app;
